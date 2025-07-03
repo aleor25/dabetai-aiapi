@@ -29,11 +29,11 @@ Con el entorno activado, ejecuta:
 ```bash
 pip install -r requirements.txt
 ```
-5. (Opcional) Verificar que se instalaron correctamente
-
+4. (Opcional) Verificar que se instalaron correctamente
+```bash
 pip list
-
-6. (Opcional) Para salir del entorno virtual:
+```
+5. (Opcional) Para salir del entorno virtual:
 ```bash
 deactivate
 ```
