@@ -14,8 +14,10 @@ python -m venv env
 ```
 Esto creará una carpeta llamada env con el entorno virtual.
 
+
 3. Activar el entorno virtual
 En Windows (PowerShell):
+
 .\env\Scripts\Activate.ps1
 
 En Windows (cmd):
