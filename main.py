@@ -31,8 +31,8 @@ class PatientData(BaseModel):
     blood_pressure: float
     # agrega más campos si los necesitas
 
-@app.post("/predict_retinopathy")
-def predict_retinopathy(data: PatientData):
+@app.post("/Prediction")
+def Prediction(data: PatientData):
     features = np.array([[data.age, data.glucose, data.blood_pressure]])
     
     risk_proba = model.predict_proba(features)[0, 1]
