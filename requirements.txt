@@ -1,15 +1,24 @@
+# FastAPI y servidor
 fastapi==0.111.0
 uvicorn==0.29.0
-imbalanced-learn==0.13.0
+
+# Modelado y ML
 joblib==1.5.1
 lightgbm==4.6.0
+imbalanced-learn==0.13.0
+scikit-learn==1.6.1
+sklearn-compat==0.1.3
+threadpoolctl==3.6.0
+
+# NumPy y ciencia de datos
 numpy==2.2.6
+scipy==1.15.3
 pandas==2.3.0
 python-dateutil==2.9.0.post0
 pytz==2025.2
-scikit-learn==1.6.1
-scipy==1.15.3
-six==1.17.0
-sklearn-compat==0.1.3
-threadpoolctl==3.6.0
 tzdata==2025.2
+six==1.17.0
+
+# ORM y base de datos
+sqlalchemy
+pydantic
