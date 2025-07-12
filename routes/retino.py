@@ -79,7 +79,7 @@ def predict_retino(ptid: int, db: Session = Depends(get_db)):
 
     # Predicción
     proba = MODEL.predict_proba(arr)[0, 1]
-    nivel = "Bajo" if proba < 0.3 else "Moderado" if proba < 0.7 else "Alto"
+    nivel = "Bajo" if proba < 0.3 else "Medio" if proba < 0.7 else "Alto"
 
     # Datos simulados de tendencia (puedes ajustar si tienes históricos reales)
     tendencia = [
