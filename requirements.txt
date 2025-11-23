@@ -1,16 +1,36 @@
-# FastAPI y servidor
+# FastAPI + servidor
 fastapi==0.111.0
-uvicorn==0.29.0
+uvicorn[standard]==0.29.0
 
-# Modelado y ML
+# ORM y validación
+sqlalchemy>=2.0
+alembic>=1.11
+psycopg2-binary>=2.9
+
+pydantic>=2.6
+pydantic-settings>=1.0
+
+# Seguridad / JWT / hashing
+python-jose[cryptography]>=3.3
+passlib>=1.7
+python-multipart>=0.0.6
+cryptography>=40.0
+
+# Google Sign-In, FCM
+google-auth>=2.22
+pyfcm>=1.5
+
+# Requests / HTTP
+requests>=2.31
+httpx>=0.24
+
+# ML / Ciencia de datos (conservé tus versiones actuales)
 joblib==1.5.1
 lightgbm==4.6.0
 imbalanced-learn==0.13.0
 scikit-learn==1.6.1
 sklearn-compat==0.1.3
 threadpoolctl==3.6.0
-
-# NumPy y ciencia de datos
 numpy==2.2.6
 scipy==1.15.3
 pandas==2.3.0
@@ -19,6 +39,14 @@ pytz==2025.2
 tzdata==2025.2
 six==1.17.0
 
-# ORM y base de datos
-sqlalchemy
-pydantic
+# Utilities / env / dotfiles
+python-dotenv>=1.0
+email-validator>=2.0
+
+# Tests
+pytest>=7.4
+pytest-asyncio>=0.21
+pytest-cov>=4.0
+
+# Optional: model serving/binary formats
+joblib>=1.5

@@ -1,5 +1,61 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# entorno vitual
+# Entornos virtuales
 venv/
+.venv/
+env/
+ENV/
+
+# Python caches
 __pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment / secrets
+.env
+.env.*
+secrets.env
+
+# Test / coverage / tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# DB (dev)
+*.db
+*.sqlite
+dabetai.db
+test.db
+
+# Backup of moved files by reorganize script
+.backup_moved/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node / frontend (if present)
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Bytecode / installers
+*.egg-info/
+build/
+dist/
+
+# Optional: modelos binarios (comentar si quieres versionarlos)
+# ml_models/*.joblib
+
+# Misc
+.vagrant/
