@@ -77,6 +77,7 @@ Simple y directo:
 
 5.  **Abre un pull request (PR):**
     - Ve a GitHub.
+    - **Usa la plantilla predeterminada:** Al crear el PR, completa la plantilla que aparece automáticamente (ubicada en `.github/PULL_REQUEST_TEMPLATE.md`). No borres ninguna sección de la plantilla.
     - **Título del PR:** Claro, sigue convención del commit principal (ej. `feat: add contact form`).
     - **Descripción:**
       - **Qué:** Resumen de cambios.
